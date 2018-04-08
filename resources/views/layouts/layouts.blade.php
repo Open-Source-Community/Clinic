@@ -50,21 +50,40 @@
 <!--end navbar-->
 
 <!--start body-->
-    <main role="main" class="container">
-        @yield('body')
-      <div class="starter-template">
-       </div>
-
-    </main>
+<body>
+    @yield('body')
+</body>
 <!-- end body -->
 
-
 <!-- start footer -->
-     <footer class="footer">
-      <div class="container">
-        <span class="text-muted">Place sticky footer content here.</span>
-      </div>
-    </footer>
+<div class="footer">
+        <div class="container">
+        
+            <div class="row">
+             
+                <div class="col-lg-4 col-md-4">
+                <h1>AKMHD</h1>
+                <p>Since 2016</p>
+                <p><em>'Delivering apps for low cost and maximum fun.'</em></p>
+                </div>
+                
+                <div class="col-lg-4 col-md-4">
+                <h1>GET IN TOUCH</h1>
+                <p><i class="fa fa-phone"></i> 011111 222 333</p>
+                <p><i class="fa fa-envelope-o"></i> <a href="mailto:info@appname.com">info@appname.com</a></p>    
+                </div>
+                
+                <div class="col-lg-4 col-md-4">
+                <h1>ABOUT US</h1>
+                <p>Delivering high quality apps for low cost and maximum fun.</p>    
+                <p>Company name @ 2016</p>
+                
+                </div>
+
+            </div>
+            
+        </div>
+    </div>
 <!-- end footer -->
 
 
